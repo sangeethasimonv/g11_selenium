@@ -38,10 +38,6 @@ public class WebDriverCommonLib {
     	Select sel=new Select(wb);
     	sel.selectByValue(value);
     }
-	public void selectByIndex(WebElement wb, String value)
-    {
-    	Select sel=new Select(wb);
-    	sel.selectByIndex(value);
-    }
+	
 	
 }
